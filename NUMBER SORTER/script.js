@@ -21,6 +21,7 @@ const updateUI = (array = []) => {
   })
 }
 
+//bubble sorting algorithm
 const bubbleSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length - 1; j++) {
@@ -35,6 +36,7 @@ const bubbleSort = (array) => {
   return array;
 }
 
+//selection sorting algorithm
 const selectionSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     let minIndex = i;
@@ -53,6 +55,7 @@ const selectionSort = (array) => {
   return array;
 }
 
+//Insertion sorting algorithm
 const insertionSort = (array) => {
   for (let i = 1; i < array.length; i++) {
     const currValue = array[i];
